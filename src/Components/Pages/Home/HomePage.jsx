@@ -16,20 +16,20 @@ const HomePage = () => {
         <section className={styles.homeConsult}>   
             
           <h2>Consult top doctors online for any health concern</h2>
-          <p>Private online consultations with verified doctors in all spedialties</p>
+          <p>Private online consultations with verified doctors in all specialists</p>
               
           <div className={styles.homeConsultCardContainer}>
             <ConsultCard title="Period doubts or Pregnancy" image={"https://www.practostatic.com/consult/consult-home/symptoms_icon/irregular-painful+period.png"}/>
-            <ConsultCard title="Period doubts or Pregnancy" image={"https://www.practostatic.com/consult/consult-home/symptoms_icon/Acne.png"}/>
-            <ConsultCard title="Period doubts or Pregnancy" image={"https://www.practo.com/consult/static/images/top-speciality-sexology.svg"}/>
-            <ConsultCard title="Period doubts or Pregnancy" image={"https://www.practostatic.com/consult/consult-home/symptoms_icon/coughing.png"}/>
-            <ConsultCard title="Period doubts or Pregnancy" image={"https://www.practo.com/consult/static/images/top-speciality-pediatric.svg"}/>
-            <ConsultCard title="Period doubts or Pregnancy" image={"https://www.practostatic.com/acred/search-assets/2/12-mental-wellness.png"}/>
+            <ConsultCard title="Acne, pimple or skin issues" image={"https://www.practostatic.com/consult/consult-home/symptoms_icon/Acne.png"}/>
+            <ConsultCard title="Performance issues in bed" image={"https://www.practo.com/consult/static/images/top-speciality-sexology.svg"}/>
+            <ConsultCard title="Cold, cough or fever" image={"https://www.practostatic.com/consult/consult-home/symptoms_icon/coughing.png"}/>
+            <ConsultCard title="Child not feeling well" image={"https://www.practo.com/consult/static/images/top-speciality-pediatric.svg"}/>
+            <ConsultCard title="Depression or anxiety" image={"https://www.practostatic.com/acred/search-assets/2/12-mental-wellness.png"}/>
           </div>
         </section>
         <section className={styles.homeAppoinments}>
           <h2>Book an appointment for an in-clinic consultation</h2>
-          <h3>Find experienced doctors across all specialties</h3>
+          <h3>Find experienced doctors across all specialities</h3>
           <AppoinmentSlider />
         </section>
         <section className={styles.homeTopArticles}>

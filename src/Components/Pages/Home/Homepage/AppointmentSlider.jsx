@@ -31,7 +31,7 @@ export const AppoinmentSlider = () => {
                 <AppointmentCard image="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-general-doctor@2x.jpg" title="General physician" sub="Find the right family doctor in your neighborhood" />
                 <AppointmentCard image="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-pediatrician@2x.jpg" title="Pediatrician" sub="Child Specialists and Doctors for Infant" />
                 <AppointmentCard image="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-gastroenterologist@2x.jpg" title="Gastroenterologist" sub="Explore for issues related to digestive system, liver and pancreas" />
-            </Carousel>;
+            </Carousel>
         
         </div>
     );
