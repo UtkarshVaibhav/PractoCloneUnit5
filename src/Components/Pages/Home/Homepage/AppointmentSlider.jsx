@@ -6,16 +6,16 @@ import { AppointmentCard } from './AppointmentCard';
 export const AppoinmentSlider = () => {
     const responsive = {
         desktop: {
-          breakpoint: { max: 3000, min: 1024 },
+          breakpoint: { max: 3000, min: 1000 },
           items: 4
         },
         tablet: {
-          breakpoint: { max: 1024, min: 464 },
-          items: 3
+          breakpoint: { max: 1000, min: 500 },
+          items: 4
         },
         mobile: {
-          breakpoint: { max: 464, min: 0 },
-          items: 1
+          breakpoint: { max: 500, min: 0 },
+          items: 4
         }
       };
 

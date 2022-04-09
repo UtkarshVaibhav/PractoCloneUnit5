@@ -1,0 +1,72 @@
+.downloadPracto{
+    display: flex;
+    flex-direction: row;
+    width: 62%;
+    margin: auto;
+}
+
+@media all and (max-width: 700px){
+    .downloadPracto{
+        flex-direction: column;
+    }
+}
+
+.downloadPracto > div {
+    margin: 40px;
+}
+
+.downloadPracto > div:nth-child(2){
+    margin-top: 70px;
+}
+
+.downloadPracto > div:nth-child(2) p{
+    font-size: 13.8px;
+    margin-top: 20px;
+}
+
+.downloadPracto > div:nth-child(2) h4{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.downloadPracto > div:nth-child(2) span{
+    border: 1px solid #adadb6;
+    height: 40px;
+    padding: 9px 8px 15px 8px;
+    border-radius: 5px 0px 0px 5px ;
+    background-color: #14bef0;
+}
+
+.downloadPracto > div:nth-child(2) input{
+    height: 40px;
+    padding: 17px 20px;
+    border-color: #adadb6;
+    border-radius: 0px 5px 5px 0px ;
+}
+
+.downloadPracto > div:nth-child(2) button{
+    height: 40px;
+    padding: 5px 27px;
+    border-style: none;
+    background-color: #14bef0;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+
+.downloadPracto > div:nth-child(2) h4 + div {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.downloadPracto > div:nth-child(2) h4 + div + div{
+    margin-top: 25px;
+    display: flex;
+}
+
+.downloadPracto > div:nth-child(2) img{
+    margin: 7px;
+}

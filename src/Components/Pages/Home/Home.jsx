@@ -7,7 +7,7 @@ import {Footer} from '../../Footer/Footer';
 import { ResponsiveFooter } from '../../Footer/ResponsiveFooter';
 import styled from 'styled-components';
 import { Copyright } from '../../Copyright/Copyright';
-import {UserFeedBack} from './UserFeedBack/UserFeedBack';
+import { HomePage } from './HomePage';
 
 
 const FooterNonResponsive=styled.div`
@@ -31,7 +31,7 @@ export const Home = () => {
     <div className={style.container}>
       <UpperPart/>
       {/* <MiddlePart/> */}
-      <UserFeedBack/>
+      <HomePage />
     </div>
     <FooterNonResponsive>
       <Footer/>
