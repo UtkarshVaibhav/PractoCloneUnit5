@@ -8,4 +8,4 @@ Nodejs CI has been enabled on github and heroku has been configured to reflect t
 the application can be viewed using this [link](https://6250e5cdd793543d64b7a6d4--brilliant-banoffee-eaef96.netlify.app/).
 ## Contributors
 [Utkarsh Vaibhav](https://github.com/UtkarshVaibhav)
-[Vaibhav](vaibhavjarwekar5526)
+[Vaibhav Jarwekar](https://github.com/vaibhavjarwekar5526)
