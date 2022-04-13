@@ -1,4 +1,5 @@
 # Practo Clone
+![image](https://user-images.githubusercontent.com/41872642/163110554-25cb1809-2dca-4726-b705-f661502fc9fa.png)
 
 ## About
 ![example workflow](https://github.com/manand881/practo-clone/actions/workflows/node.js.yml/badge.svg)<br>
